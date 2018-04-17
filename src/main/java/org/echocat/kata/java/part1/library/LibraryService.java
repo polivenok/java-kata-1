@@ -1,4 +1,4 @@
-package org.echocat.kata.java.part1;
+package org.echocat.kata.java.part1.library;
 
 import org.echocat.kata.java.part1.books.Book;
 import org.echocat.kata.java.part1.books.BooksRepository;
@@ -20,13 +20,10 @@ public class LibraryService {
     }
 
     public void printAllEntries() throws IOException {
-
         List<Book> allBooks = booksRepository.getAll();
         printLibraryEntries(allBooks);
-        System.out.println("ALL Magazines:");
         List<Magazine> allMagazines = magazineRepository.getAll();
         printLibraryEntries(allMagazines);
-
     }
 
     public void printAllEntriesSortedByTitle() throws IOException {

@@ -4,7 +4,7 @@ import lombok.Builder;
 import lombok.EqualsAndHashCode;
 import lombok.ToString;
 import lombok.Value;
-import org.echocat.kata.java.part1.LibraryEntry;
+import org.echocat.kata.java.part1.library.LibraryEntry;
 import org.echocat.kata.java.part1.authors.Author;
 
 import java.util.List;

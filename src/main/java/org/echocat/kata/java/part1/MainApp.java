@@ -4,6 +4,7 @@ import org.echocat.kata.java.part1.authors.AuthorsRepository;
 import org.echocat.kata.java.part1.books.BooksRepository;
 import org.echocat.kata.java.part1.data.CSVReader;
 import org.echocat.kata.java.part1.data.DataReader;
+import org.echocat.kata.java.part1.library.LibraryService;
 import org.echocat.kata.java.part1.magazines.MagazineRepository;
 
 import java.io.IOException;

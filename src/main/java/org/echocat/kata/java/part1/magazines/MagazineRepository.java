@@ -2,7 +2,7 @@ package org.echocat.kata.java.part1.magazines;
 
 import org.echocat.kata.java.part1.authors.Author;
 import org.echocat.kata.java.part1.authors.AuthorsRepository;
-import org.echocat.kata.java.part1.books.LibraryRepository;
+import org.echocat.kata.java.part1.library.LibraryRepository;
 import org.echocat.kata.java.part1.data.DataReader;
 import org.echocat.kata.java.part1.data.MagazineCSVData;
 

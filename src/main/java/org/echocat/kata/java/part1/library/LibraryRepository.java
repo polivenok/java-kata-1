@@ -1,6 +1,4 @@
-package org.echocat.kata.java.part1.books;
-
-import org.echocat.kata.java.part1.LibraryEntry;
+package org.echocat.kata.java.part1.library;
 
 import java.io.IOException;
 import java.util.List;
